@@ -6,10 +6,10 @@ public class ArmstrongNumberUserInput {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
-        scanner.close(); // Close the scanner to prevent resource leaks
+        scanner.close(); 
 
         if (isArmstrong(number)) {
-            System.out.println(number + " is an Armstrong number.");
+            System.out.println(number + " is an Armstrong numberrrrr.");
         } else {
             System.out.println(number + " is not an Armstrong number.");
         }
